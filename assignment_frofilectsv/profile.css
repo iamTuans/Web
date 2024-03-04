@@ -1,0 +1,108 @@
+
+.main {
+    margin: 0 350px;
+    display: flex;
+}
+
+.canhan{
+    width: 600px;
+    border: 2px solid #d9dce2;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bia_profile{
+    width: 100%;
+    height: 100%;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #d9dce2;
+    border-radius: 100px;
+    position: absolute;
+    left: 7%;
+    top: calc(50% - 100px);
+}
+
+.information{
+    margin-top: 100px;
+}
+
+.information p{
+    font-size: 20px;
+    margin-left: 5%;  
+}
+
+.diem{
+    margin-top: 20px;
+    width: 600px;
+    border: 2px solid #d9dce2;
+    border-radius: 10px;
+    position: relative;   
+}
+
+.diem p{
+    font-size: 20px;
+    margin: 1px 0 0 5%;
+}
+
+.trangthai{
+    margin-top: 20px;
+}
+
+.thongtin{
+    width: 100%;
+    border: 2px solid #d9dce2;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+
+
+.pick{
+    margin-left: 30px;
+}
+
+.pick p{
+    margin:5px 0;
+    font-size: 20px;
+}
+
+.luachon{
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid #d9dce2;
+    border-radius: 3px;
+    background-color: white;
+    height: 60px;
+}
+
+h1{
+    text-decoration-line: underline;
+}
+.thongtincanhan{
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.thongtingiadinh{
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.thongtingiadinh1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.bieudo{
+    margin: 0 350px;
+    display: flex;
+}
+
+.bieudo p {
+    font-weight: bold;
+    font-size: 30px;
+}
