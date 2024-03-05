@@ -49,7 +49,13 @@
 }
 
 .trangthai{
+    display: none;
     margin-top: 20px;
+}
+
+.trangthai.active{
+    display: flex;
+    flex-direction: column;
 }
 
 .thongtin{
@@ -61,6 +67,13 @@
 
 
 .pick{
+    display: none;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.pick.active{
+    display: flex;
     margin-left: 30px;
 }
 
@@ -70,12 +83,7 @@
 }
 
 .luachon{
-    margin-top: 20px;
-    font-size: 20px;
-    border: 1px solid #d9dce2;
-    border-radius: 3px;
     background-color: white;
-    height: 60px;
 }
 
 h2{
@@ -105,4 +113,21 @@ h2{
 .bieudo p {
     font-weight: bold;
     font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    padding: 10px;
+}
+
+.menu-item {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.menu-item.active {
+    font-weight: bold;
+    border-bottom: 2px solid blue;
 }
